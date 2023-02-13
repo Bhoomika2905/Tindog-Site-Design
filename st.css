@@ -1,0 +1,177 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#tt{
+    background-color: #ff4c68;
+    
+}
+#cf{
+    padding-bottom: 10%;
+}
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.row{
+    padding: 100px auto;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white;
+    line-height: 1.5;
+}
+h2{
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+h3{
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+.image1{
+    right: 30px;
+    transform: rotate(25deg); 
+    width: 70%;  
+    position: absolute;
+}
+
+.d1{
+    margin: 5% 3% 5% 0;
+}
+.d2{
+    margin: 5% 3% 5% 0;
+}
+#b1{
+    padding-right: 8px;
+}
+#b2{
+    padding-right: 8px;
+}
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    padding: 60px;
+}
+.icon{
+    margin-bottom: 5%;
+    color: #ef8172;
+}
+.icon:hover{
+color: #ff4c68;
+}
+.featurebox{
+    text-align: center;
+    font-family:'Montserrat';
+    padding: 5%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: auto;
+}
+.name1{
+    text-align: center;
+    width: auto;
+}
+#testimonials
+{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width: 20%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.tt{
+    width: 15%;
+    margin: 30px;
+}
+#cr{
+    margin-top: 100px;
+    text-align: center;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.rowlist{
+    padding: 20px;
+}
+.collist{
+    padding: 20px;
+}
+.card-body{
+    padding: 40px 10px 50px 10px;
+}
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    line-height: 1.5rem;
+    font-family: 'Montserrat-Black';
+}
+#ctc{
+    font-size: 2.5rem;
+    width: 55%;
+    margin: 0 auto 0 auto;
+}
+#footer{
+    text-align: center;
+    padding: 100px;
+}
+.footer-link{
+    display: inline-block;
+    padding: 30px 20px 30px 20px;
+    text-decoration: none;
+}
+.iconl{
+    margin-bottom: 5%;
+    color: black;
+}
+.iconl:hover{
+color: grey;
+}
+@media (max-width: 1000px) {
+    .row{
+        text-align: center;
+    }
+    .image1{
+        position: static;
+        transform: rotate(0);
+    }
+}
